@@ -22,4 +22,7 @@ services:
 
     volumes:
       # 映射数据库文件存储位置，容器重启后不丢失
-      - ./data:/app/data
+      - wewe-rss-data:/app/data
+
+volumes:
+  wewe-rss-data:
