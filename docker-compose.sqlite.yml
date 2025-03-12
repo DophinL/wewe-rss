@@ -10,7 +10,7 @@ services:
       # - DATABASE_URL=file:../data/wewe-rss.db
       - DATABASE_TYPE=sqlite
       # 服务接口请求授权码
-      - AUTH_CODE=123567
+      # - AUTH_CODE=123567
       # 提取全文内容模式
       # - FEED_MODE=fulltext
       # 定时更新订阅源Cron表达式
